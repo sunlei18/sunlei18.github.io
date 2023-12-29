@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>网站索引</title>
-    <script src="https://nowscott.top/src/index.js"></script>
-    <link rel="shortcut icon" href="https://nowscott.top/favicon.ico" />
-    <link rel="stylesheet" href="https://nowscott.top/css/index.css">
-    <link rel="stylesheet" id="darkcss" href="https://nowscott.top/css/daytime.css">
-</head>
+    <title>JavaDev - 个人网站</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
 
-<body backdrop-filter: blur(15px);>
-    <button id="darkbtn" class="daytime" title="切换模式">
-        <img id="icon" src="https://nowscott.top/svg/sun.svg" />
-    </button>
-    <div class="html-container">
-        <h1 class="title-1">NowScott</h1>
-        <h2 class="title-2">
-            <a href="https://github.com/NowScott/IndWebIndex" target="_blank">Individual Web Index.</a>
-        </h2>
-        <div class="search-box">
-            <input class="search-in" id="s-in" type="text" placeholder="请输入关键词" />
-            <button class="search-btn" id="s-btn">🔍</button>
-        </div>
-        <h2 class="title-tags">选择标签</h2>
-        <div id="tags-container"></div>
-        <h2 class="title-webs">筛选网页</h2>
-        <div id="webs-container"></div>
-        <p>Copyright © 2023 - NowScott</p>
+        #main-container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #FFD700;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-container">
+        <h1>JavaDev</h1>
+        <p>五年 Java 开发经验的程序员</p>
+        <a href="https://github.com/yourusername" class="btn" target="_blank">GitHub Profile</a>
     </div>
 </body>
-
 </html>
